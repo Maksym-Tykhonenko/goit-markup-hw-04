@@ -131,8 +131,6 @@ margin-right: 50px;
   padding-bottom: 200px;
 }
 
-
-
 .hero .titel {
   color: var(--third-color);
   font-size: 44px;
@@ -231,7 +229,6 @@ margin-right: 50px;
   margin-right: 10px;
 }
 .social-item {
-  background-color: teal;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -239,7 +236,16 @@ margin-right: 50px;
   align-items: center;
   justify-content: center;
 }
+
 .team-soc-item {
+  fill: rgba(175, 177, 184, 1);;
+}
+.social-item:hover {
+  background-color: rgba(33, 150, 243, 1);
+
+}
+.social-item:hover .team-soc-item {
+  fill: #ffffff;
 }
 .team-img {
   display: block;
