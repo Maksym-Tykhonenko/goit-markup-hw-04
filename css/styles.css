@@ -222,7 +222,7 @@ margin-right: 50px;
 .social-list {
  display: flex;
  justify-content: center;
- margin-top: 16px;
+ 
 }
 
 .social-item:not(:last-child) {
@@ -267,6 +267,7 @@ margin-right: 50px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
 }
 .team-section {
   background: var(--third-bg-color);
@@ -275,17 +276,31 @@ margin-right: 50px;
 .team-list {
     display: flex;
     align-items: flex-start;
-    
-   
 }
 
+/*постійні клієнти*/
+.clients-title {
+ font-size: 36px;
+ line-height: 1.17;
+ text-align: center;
+ margin-bottom: 50px;
+}
+.clients-list {
+ display: flex;
+ justify-content: space-between;
+}
 /*footer*/
 .footer {
   background: var(--second-bg-color);
 
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
+.footer .container {
+  display: flex;
+}
+
 .footer-logo {
   font-family: Raleway;
   font-size: 26px;
@@ -334,6 +349,20 @@ margin-right: 50px;
 .contact-link:focus {
   color: var(--accent-color);
 }
+.contact-container {
+  margin-right: 70px;
+}
+
+.call {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: rgba(255, 255, 255, 1);
+ text-align: center;
+ margin-bottom: 20px;
+
+}
+
 
 /*portfolio page*/
 
