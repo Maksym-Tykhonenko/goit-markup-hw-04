@@ -167,10 +167,6 @@ margin-right: 50px;
   display: flex;
   justify-content: space-between;
 }
-.benefits-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 
 .ben-list-title {
   font-size: 14px;
@@ -179,9 +175,7 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
-
   width: 270px;
-  
 }
 .ben-list-text {
   font-size: 14px;
@@ -189,10 +183,33 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--text-color);
-
   width: 270px;
   margin-top: 10px;
 }
+.benefits-item {
+
+}
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
+}
+.benefits-link {
+  border: 0px ;
+  border-radius: 4px;
+  background: rgba(245, 244, 250, 1);
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.benefits-icon {
+
+}
+
+
+
+
 /*main*/
 .section-title {
   color: var(--primary-text-color);
@@ -224,10 +241,6 @@ margin-right: 50px;
  justify-content: center;
  
 }
-
-.social-item:not(:last-child) {
-  margin-right: 10px;
-}
 .social-item {
   width: 44px;
   height: 44px;
@@ -236,6 +249,10 @@ margin-right: 50px;
   align-items: center;
   justify-content: center;
 }
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 
 .team-soc-item {
   fill: rgba(175, 177, 184, 1);;
@@ -289,6 +306,29 @@ margin-right: 50px;
  display: flex;
  justify-content: space-between;
 }
+.clients-item {
+  width: 170px;height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4%;
+}
+.clients-item:hover {
+  border: 1px solid var(--accent-color);
+}
+.clients-item:hover .clients-logo {
+  fill: var(--accent-color);
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+}
+.clients-logo {
+  margin-top: 16px;
+  fill: rgba(175, 177, 184, 1);
+}
+
+
+
+
 /*footer*/
 .footer {
   background: var(--second-bg-color);
@@ -351,17 +391,44 @@ margin-right: 50px;
 }
 .contact-container {
   margin-right: 70px;
+  width: 231px;
+}
+.soc-container {
+  width: 206px;
 }
 
 .call {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 2.18;
   color: rgba(255, 255, 255, 1);
- text-align: center;
- margin-bottom: 20px;
-
+  margin-bottom: 20px;
 }
+.foot-social-list {
+  width: 206px;
+  display: flex;
+  justify-content: space-between;
+}
+.foot-social-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+}
+.foot-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.foot-social-item:hover {
+  background-color: rgba(33, 150, 243, 1);
+}
+.foot-soc-link {
+fill: #ffffff;
+}
+
+
 
 
 /*portfolio page*/
